@@ -2,4 +2,4 @@ FROM ubuntu
 
 
 RUN apt update \
-&& apt install siege joe
+&& apt install -y siege joe curl less
